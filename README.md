@@ -23,3 +23,6 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
   - *CSV Upload* — Analyze your own USB or VPN logs  
   - *Demo Mode* — Uses built-in synthetic data for offline testing
 - Interactive charts, anomaly reports, and CSV exports
+
+  #### 📁 Project Structure
+
