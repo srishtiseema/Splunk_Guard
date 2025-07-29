@@ -43,7 +43,7 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
 └── LICENSE                 # MIT License
 
 
----
+
 
 #####🛠️ Setup & Usage
 
