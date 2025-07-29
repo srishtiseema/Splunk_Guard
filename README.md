@@ -24,7 +24,7 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
   - *Demo Mode* — Uses built-in synthetic data for offline testing
 - Interactive charts, anomaly reports, and CSV exports
 
- ### 📁 Project Structure
+ #### 📁 Project Structure
 
 ```plaintext
 .vscode/               # Devcontainer settings
@@ -45,9 +45,9 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
 
 ---
 
-## 🛠️ Setup & Usage
+#####🛠️ Setup & Usage
 
-### 🚀 Streamlit Web App
+###### 🚀 Streamlit Web App
 
 1. Install dependencies:  
    ```bash
