@@ -42,13 +42,36 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
 ├── README.md               # Project overview (this file)
 └── LICENSE                 # MIT License
 
-### 🛠 Setup & Usage
+<h3>🛠 Setup &amp; Usage</h3>
 
-#### 🚀 Streamlit Web App
+<h4>🚀 Streamlit Web App</h4>
+<ol>
+  <li>
+    <strong>Install dependencies:</strong>
+    <pre><code class="language-bash">pip install -r requirements.txt</code></pre>
+  </li>
+  <li>
+    <strong>Update</strong> <code>streamlit/secrets.toml</code> with Splunk credentials (for live mode)
+  </li>
+  <li>
+    <strong>Run the app:</strong>
+    <pre><code class="language-bash">streamlit run app.py</code></pre>
+  </li>
+  <li>
+    Or use the public link: <a href="#">Splunk-Guard Web Dashboard</a>
+  </li>
+</ol>
 
-1. *Install dependencies:*
-   ```bash
-   pip install -r requirements.txt
+<hr>
+
+<h4>💾 Splunk Backend (Optional)</h4>
+<ol>
+  <li>Install <strong>Splunk Enterprise (Free Trial)</strong> and <strong>Machine Learning Toolkit (MLTK)</strong></li>
+  <li>Ingest <code>usb_logs.csv</code> and <code>vpn_logs.csv</code> into indexes (e.g., <code>splunk_guard</code>, <code>vpn</code>)</li>
+  <li>Use provided SPL scripts for field extraction and anomaly model training</li>
+  <li>Import dashboards from <code>splunk_guard/dashboards/</code></li>
+  <li>Configure alerts using queries in <code>spl_queries/</code></li>
+</ol>
 
 
 
