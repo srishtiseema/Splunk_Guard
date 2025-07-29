@@ -24,18 +24,21 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
   - *Demo Mode* — Uses built-in synthetic data for offline testing
 - Interactive charts, anomaly reports, and CSV exports
 
-  #### 📁 Project Structure
-  ├── .devcontainer/                # VSCode Devcontainer settings
-├── .streamlit/                   # Streamlit config files (secrets.toml)
-├── Splunk_Guard/                 # Core Splunk content (dashboards, models)
-│   ├── dashboards/               # Splunk Studio dashboard JSON exports
-│   ├── mltk_configs/             # Model guides for Splunk MLTK
-│   ├── spl_queries/              # SPL scripts for field extraction & models
-|   ├── screenshots/              # Backened preview images for judges/users
-|   └── sample_data/              # Example USB and VPN log files
-├── app.py                        # Final Streamlit Web Application foe local system use
-├── demos_app.py                  # Alternate Streamlit demo version for public usage
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project overview (this file)
-├── LICENSE                       # MIT License
+ ### 📁 Project Structure
+
+```plaintext
+.vscode/               # Devcontainer settings
+├── .devcontainer/
+├── .streamlit/
+├── Splunk_Guard/
+│   ├── dashboards/         # Core Splunk content (dashboards, models)
+│   ├── mltk_configs/       # Model guides for Splunk MLTK
+│   ├── spl_queries/        # SPL scripts and dashboard JSON exports
+│   └── screenshots/        # Saved preview images for judges/users
+├── sample_data/            # Example USB and VPN log files
+├── app.py                  # Streamlit Web Application for local system use
+├── demos_app.py            # Alternate Streamlit demo version for public usage
+├── requirements.txt        # Python dependencies
+├── README.md               # Project overview (this file)
+└── LICENSE                 # MIT License
 
