@@ -6,10 +6,10 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
 
 🌐 Try the Live App: Splunk-Guard Web Dashboard
 
-#🚀 Project Highlights
+##🚀 Project Highlights
 
-    -Detects abnormal USB write patterns to flag potential data exfiltration
-    -Identifies suspicious VPN logins from unusual or distant locations
-    -Streamlit Web App for interactive anomaly detection, even without Splunk
-    -Splunk dashboards and alerts included for real-time enterprise monitoring
-    -Leverages free Splunk tools — No paid plugins required
+    - Detects abnormal USB write patterns to flag potential data exfiltration
+    - Identifies suspicious VPN logins from unusual or distant locations
+    - Streamlit Web App for interactive anomaly detection, even without Splunk
+    - Splunk dashboards and alerts included for real-time enterprise monitoring
+    - Leverages free Splunk tools — No paid plugins required
