@@ -42,15 +42,13 @@ Splunk-Guard is a hybrid, ML-driven threat detection system for monitoring USB a
 ├── README.md               # Project overview (this file)
 └── LICENSE                 # MIT License
 
-##### 🛠 Setup & Usage
+### 🛠 Setup & Usage
 
-###### 🚀 Streamlit Web App
+#### 🚀 Streamlit Web App
 
-1. Install dependencies:  
+1. *Install dependencies:*
    ```bash
    pip install -r requirements.txt
-3.Run the app:
-   streamlit run app.py
 
 
 
